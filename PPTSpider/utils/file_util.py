@@ -37,9 +37,5 @@ def copy_ppt(src_path, target_path):
                         shutil.copyfile(file_path, target_path.format(file_name))
 
 
-
-
 if __name__ == '__main__':
-    src = '/Users/zhangjunbo/Documents/ppt/beijing'
-    target = '/Users/zhangjunbo/Documents/ppt/背景图片/{}'
     copy_ppt(src, target)
